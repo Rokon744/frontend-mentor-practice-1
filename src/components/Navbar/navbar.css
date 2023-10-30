@@ -1,0 +1,57 @@
+.nav-section{
+    padding: 20px 30px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-content li{
+    color: #787474;
+    font-weight: 600;
+    cursor: pointer;
+}
+.nav-content li:hover{
+    color: black;
+}
+.loginSign button,
+.login button{
+    padding: 5px 20px;
+    border: 2px solid white;
+    font-weight: 600;
+}
+.loginSign .reg:hover,
+.login .reg:hover{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.dropdown-menu{
+    position: absolute;
+    top: 30px;
+    width: 140px;
+    box-shadow: -1px 5px 13px 2px rgb(236, 231, 231);
+    padding: 8px;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    cursor: pointer;
+}
+
+
+
+
+.responsive-nav{
+    height: 100vh;
+    position: fixed;
+    width: 300px;
+    background: white;
+    transition: all ease .5s;
+    padding: 40px;
+}
+.responsive-nav li{
+    font-weight: 600;
+}
+.active{
+    width: 300px;
+}

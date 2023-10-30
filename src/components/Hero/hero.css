@@ -1,0 +1,69 @@
+.hero-section {
+}
+
+.hero-left h1 {
+    font-size: 75px;
+    line-height: 75px;
+    font-weight: 700;
+}
+.hero-left p{
+    margin-top: 60px;
+    max-width: 400px;
+}
+.hero-left button{
+    margin-top: 50px;
+    padding: 10px 20px;
+    background: black;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+    transition: .3s;
+}
+.hero-left button:hover{
+    color: black;
+    background: white;
+    border: 1px solid black;
+}
+
+
+.hero-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-right img{
+    width: 550px;
+    height: 100%;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .hero-section{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .hero-left{
+        text-align: center;
+        margin: auto;
+    }
+    .hero-left h1{
+        font-size: 40px;
+    }
+    .hero-left p{
+        margin: auto;
+    }
+    .hero-left .icon-area ul{
+        margin-top: 40px;
+        padding: 0px 20px;
+        padding-bottom: 50px;
+    }
+    .hero-left button{
+        margin-top: 40px;
+    }
+
+    .hero-right img{
+        margin-bottom: 30px;
+    }
+}
